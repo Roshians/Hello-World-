@@ -9,3 +9,4 @@ Make sure to see [CONTRIBUTING.md](/CONTRIBUTING.md) for instructions on contrib
 
 * [Python](/Python.py)
 * [C](/C.c)
+* [JavaScript](/Javascript.js)
