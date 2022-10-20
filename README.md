@@ -7,10 +7,11 @@ Make sure to see [CONTRIBUTING.md](/CONTRIBUTING.md) for instructions on contrib
 
 ## Languages
 
+* [BASIC](/BASIC.bas)
+* [Bhai_Lang] (/Bhai_Lang.bhai)
+* [Brainfuck](/Brainfuck.bf)
 * [C](/C.c)
+* [C++](/C%2B%2B.cpp)
 * [Dart](/Dart.dart)
 * [JavaScript](/Javascript.js)
 * [Python](/Python.py)
-* [C++](/C%2B%2B.cpp)
-* [BASIC](/BASIC.bas)
-* [Bhai Lang] (/Bhai_Lang.bhai)
