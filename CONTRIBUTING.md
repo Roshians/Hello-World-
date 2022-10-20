@@ -2,12 +2,32 @@
 
 ### Adding a language
 
+#### Conflict of interest
+
+If you are associated with a programming language (for example: through endorsement or being an internal contributor) you will not be able to add it unless you can prove its notability by citing multiple external sources that were not created with a conflict of interest.
+
 #### Naming
 
-The file should be named according to the language it was written. The name shouldn't be abbreviated too far (`Javascript.js` instead of `JS.js`) and it shouldn't be abbreviated to little (`CSS.css` instead of `Cascading Style Sheets.css`). Additionally, hyphens should be used instead of spaces (`Objective-C.m` instead of `Objective C.m`).
+The name of the file will be displayed as-is in the readme. It should be named according to the language it was written in. The name shouldn't be abbreviated too far (use `JavaScript.js` instead of `JS.js`) and it shouldn't be abbreviated too little (use `CSS.css` instead of `Cascading Style Sheets.css`). Additionally, use spaces instead of hyphens or underscores (use `Objective C.m` instead of `Objective-C.m`).
+
+If a file name contains a special character that Windows is not able to display, substitute it with the following:
+
+|Original|Substitute|
+|:-:|:-:|
+|/|∕|
+|\\ |＼|
+|:|˸|
+|\*|∗|
+|?|？|
+|"|＂|
+|<|﹤|
+|>|﹥|
+|\||❘|
 
 #### Contents
 
-The code in the file should be the simplest or most straightforward way to print/display/show `Hello World` exactly once in the language used. Input from the user shouldn't be asked for where possible and a newline should only be printed when necessary.
+The code in the file should be the simplest and most straightforward way to print/display/show `Hello World` exactly once in the language used. User input should not be requested and a newline should only be printed when necessary.
 
+### Updating readme
 
+After adding the language file, run `update_list.py` with Python 3.6+ to automatically update the language list. If you don't have a local clone, you will need to increment the language count and alphabetically list the language yourself.
